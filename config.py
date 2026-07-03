@@ -1,0 +1,18 @@
+MIDI_DIR   = "data/midi"
+DATA_DIR   = "data/processed"
+MODELS_DIR = "models"
+OUTPUT_DIR = "output"
+
+SEQUENCE_LENGTH = 100
+
+EMBEDDING_DIM = 64
+LSTM_UNITS    = 512
+DROPOUT_RATE  = 0.3
+
+BATCH_SIZE    = 64
+EPOCHS        = 100
+LEARNING_RATE = 0.001
+
+GENERATE_LENGTH = 500
+TEMPERATURE     = 1.0
+BPM = 120
